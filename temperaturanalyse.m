@@ -2,13 +2,13 @@ clear all
 
 %% --- Einstellungen ---
 % Pfad zur Temperaturdaten-TXT-Datei (aus SmartView exportiert)
-txtFile = 'C:\Users\WING\Documents\WING\06_BA+prak\BA\neueneueBILDER\IR_00333.txt';
+txtFile = 'C:\xxxx\xxxx\xxxx.txt';
 
 % Pfad zum zugehörigen Wärmebild im .jpg - Format (aus SmartView exportiert, mit Farbpalette "hoher Kontrast")
-imageFile = 'C:\Users\WING\Documents\WING\06_BA+prak\BA\neueneueBILDER\IR_00333.jpg';
+imageFile = 'C:\xxxx\xxxx\xxxx.jpg';
 
 % Name der Ausgangs - Exceldatei wählen
-xlFileName = 'IR_00333_analysewerte.xlsx';
+xlFileName = 'xxxx_analysewerte.xlsx';
 
 %% --- Bild laden und verarbeiten ---
 img = imread(imageFile);
